@@ -15,3 +15,8 @@ class Compte {
     }
   }
 }
+  void main() {
+    var compte1 = Compte("12345ABC");
+    compte1.depot(200);
+    print("Solde actuel : ${compte1.solde}");
+  }
