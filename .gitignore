@@ -1,0 +1,31 @@
+# Dart/Flutter build & tooling
+.dart_tool/
+build/
+.packages
+.pub/
+.pub-cache/
+**/pubspec.lock
+
+# VS Code
+.vscode/
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+
+# Logs
+*.log
+
+# Ignore compiled outputs
+*.exe
+*.dll
+*.class
+*.pyc
+
+# Ignore IntelliJ
+.idea/
+
+# Keep revision files tracked
+!revision.dart
