@@ -18,3 +18,8 @@ class BaseDeDonnees implements Connectable {
   void connecter(String utilisateur) {
     print("BaseDeDonnees : Connexion établie pour $utilisateur.");
   }
+  @override
+  void deconnecter() {
+    print("BaseDeDonnees : Déconnexion réussie.");
+  }
+}
